@@ -47,7 +47,7 @@ git push origin https://github.com/tsoluciona/codigowal.git
 
 
 ```
-git pull origin main
+git push origin main
 ```
 - Sirve para poder subir los cambios de nuestro repositorio en la nube, en este caso github
 
