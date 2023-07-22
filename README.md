@@ -41,7 +41,7 @@ git commit -m "comentario"
 - :eye: Los comentarios deben estar relacionados a los cambios que hice, esto es una recomendacion.
 
 ```
-git push origin main
+git push origin https://github.com/tsoluciona/codigowal.git
 ```
 - Sirve para poder subir los cambios a nuestro repositorio en la nube, en este caso github
 
@@ -49,7 +49,7 @@ git push origin main
 ```
 git pull origin main
 ```
-- Sirve para poder descargar los cambios de nuestro repositorio en la nube, en este caso github
+- Sirve para poder subir los cambios de nuestro repositorio en la nube, en este caso github
 
 ## Ramas
 ```
