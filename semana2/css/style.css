@@ -1,0 +1,31 @@
+body{
+    font-family: Helvetica;
+}
+h1{
+    background-color: #000;
+    color: #f01;
+}
+h2{
+    background-color: #22e8dc;
+    color: rgb(160, 238, 179);
+}
+p{
+    background-color: yellow;
+    color:blue;
+}
+
+a{
+    color: pink;
+    background-color: yellowgreen;
+}
+
+#contenedor-uno{
+    background-color: #09a;
+}
+#contenedor-dos{
+    background-color: #fc0;
+}
+.contenedor-principal{
+    background-color: violet;
+    padding: 30px;
+}
