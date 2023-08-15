@@ -10,7 +10,7 @@ h2{
     color: rgb(160, 238, 179);
 }
 p{
-    background-color: yellow;
+    /*background-color: yellow;*/
     color:blue;
 }
 
@@ -29,3 +29,83 @@ a{
     background-color: violet;
     padding: 30px;
 }
+
+.btn-ingresar{
+    background-color: rgb(14, 139, 255);
+    color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    text-decoration: none;
+}
+
+.btn-registro{
+    font-size: 25px;
+}
+
+.contenedor-form{
+    border: 3px solid rgb(255, 136, 0);
+    border-radius: 8px;
+}
+
+.contenedor-interno-form{
+    padding: 20px;
+    text-align: center; 
+}
+.titulo-form{
+    color: rgb(5, 80, 150);
+    background-color: #fff;
+}
+.input-form{
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    width: 400px;
+}
+.input-codigo{
+    width: 100px;
+}
+.input-numero{
+    width: 272px;
+}
+.btn-crear-usuario{
+    background-color: rgb(5, 80, 150);
+    color: #fff;
+    border: none;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+/* PSEUDOCLASES */
+/* Los elementos tienen propiedades
+internas por el ejemplo el hover
+
+hover: es la propiedad qeu detecta
+cuando el mouse esta sobre el elemento,
+es decir estos estilos se aplicaran 
+solo si el mouse esta sobre dicho elemento
+*/
+.btn-ingresar:hover{
+    background-color: #f01;
+    color: #000;
+}
+
+.contenedor-interno-form h1{
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+h1:first-child{
+    color: purple;
+}
+input:first-of-type{
+    color: #f01;
+}
+
+h2:nth-child(3){
+    color: #000;
+    background-color: #f01;
+}
+/* .contenedor-interno-form p:nth-child(2){
+    border: 1px solid #f01;
+} */

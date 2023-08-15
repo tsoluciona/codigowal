@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial;
+}
+.contenedor p{
+    color: #f01;
+}
+.contenedor-dos h2{
+    color: #aba;
+}
+.contenedor-tres a img{
+    border: 2px solid rgb(27, 117, 235);
+}
+.menu-navegacion{
+    margin: 20px;
+}
+/* ul > li{
+    border: 2px solid green;
+} */
+.link-navegacion{
+    border: 2px solid green;
+}
