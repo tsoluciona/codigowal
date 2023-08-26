@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body{
     font-family: Helvetica;
 }
@@ -5,9 +10,22 @@ body{
 .link-referencia{
     background-color: rgb(240,199,16);
     color: #000;
+    margin: 20px;
     padding: 10px;
     text-decoration: none;
     border-radius: 5px;
+    border: solid 1px rgba(238, 238, 194, 0.8);
+}
+h3{
+    margin: 20px;
+    font-size: 2em;
+}
+.divisor{
+    margin: 20px;
+    height: 4px;
+    background-color: #000;
+    border: none;
+    border-radius: 12px;
 }
 
 .link-referencia:hover{
@@ -17,21 +35,43 @@ body{
 
 .contenedor-principal{
     text-align: center;
+    height: 100vh;
 }
-.contenedor-principal p{
-    font-size: 18px;
-    /* width: 400px; */
-}
-
 .imagen-perfil{
     border-radius: 50%;
     border: 2px solid #ccc;
+    margin-bottom: 20px; 
 }
 .btn-github{
     border: 2px solid #000;
     border-radius: 8px;
     padding: 10px 5px;
+    
     color: #000;
     text-decoration: none;
     
+}
+/* .contenedor-principal p{
+    font-size: 18px;
+    width: 400px;
+} */
+
+.contenedor-clases{
+    height: 100vh;
+    background-color: rgb(230, 202, 113);
+    
+}
+
+.contenedor-principal .merm{
+    border-radius: 10px;
+    width: 600px;
+    margin-top: 40px;
+}
+.lista-semanas{
+    margin: 40px;
+    padding: 40px;
+    list-style: none;
+}
+.lista-semanas li{
+    padding: 20px;
 }

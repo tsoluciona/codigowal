@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Supermercado+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Supermercado One", Arial, Helvetica, sans-serif;
+}
+
+.contenedor-form{
+    border: 3px solid #000;
+    height: 40vh;
+    background-color: rgb(232, 232, 65)
+}
+
+input{
+    display: block;
+    margin: 10px;
+    padding: 10px;
+    border: solid 3px #64cd87;
+}
+
+article{
+    height: 40vh;
+    background-color: rgba(123, 234, 133, 0.3);
+}
+.contenedor-uno{
+    height: 30vh;
+    background-color: hsl(109, 62%, 78%);
+}
